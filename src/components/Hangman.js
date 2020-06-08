@@ -12,6 +12,7 @@ import step6 from "../images/6.jpg";
 class Hangman extends Component {
   
     static defaultProps = {
+        maxWrong:6,
         images:[step0,step1,step2,step3,step4,step5,step6]
     }
 
