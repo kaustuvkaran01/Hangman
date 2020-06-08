@@ -12,7 +12,6 @@ import step6 from "../images/6.jpg";
 class Hangman extends Component {
   
     static defaultProps = {
-        maxWrong:6,
         images:[step0,step1,step2,step3,step4,step5,step6]
     }
 
@@ -21,7 +20,8 @@ class Hangman extends Component {
         this.state = {
             mistake:0,
             guessed: new Set([]),
-            answer: randomWord()
+            answer: randomWord(),
+            maxWrong:6,
 
         }
     }
@@ -59,7 +59,8 @@ class Hangman extends Component {
         this.setState({
             mistake : 0,
             guessed: new Set([]),
-            answer: randomWord()
+            answer: randomWord(),
+            maxWrong:6,
         });
     }
 
