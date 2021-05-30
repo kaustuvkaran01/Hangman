@@ -16,7 +16,19 @@ var programming_languages = [
     "lisp",
     "perl",
     "prolog",
-    "scala"
+    "scala",
+    "m",
+    "perl",
+    "solidity",
+    "lua",
+    "typescript",
+    "bash",
+    "julia"
+    "sql",
+    "swift",
+    "unity",
+    "kotlin",
+    "dart",
 ]
 
 function randomWord() {
