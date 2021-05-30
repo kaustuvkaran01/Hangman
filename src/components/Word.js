@@ -23,7 +23,7 @@ var programming_languages = [
     "lua",
     "typescript",
     "bash",
-    "julia"
+    "julia",
     "sql",
     "swift",
     "unity",
